@@ -11,7 +11,7 @@ const TextInput = (props) => {
 //   console.log(meta);
   return (
     <div className="flex flex-col gap-2 mb-5">
-      <label htmlFor={id || name} className="font-semibold text-2xl font-normal">{label}</label>
+      <label htmlFor={id || name} className="font-semibold text-2xl">{label}</label>
       <input
         type={type}
         name={name}
